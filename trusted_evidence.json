@@ -1,0 +1,10 @@
+{
+  "schema": "baroness-evidence-v1",
+  "records": {
+    "demo-001": {
+      "claim_sha256": "332e4a192c25181210b2b67b18fa02a87d833cbddb0fa5b810e205c19ce89d6d",
+      "scope": "exact-integer-rational-arithmetic",
+      "source": "local-public-fixture"
+    }
+  }
+}

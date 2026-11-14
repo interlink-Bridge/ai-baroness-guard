@@ -1,0 +1,14 @@
+{
+  "schema": "baroness-agent-v1",
+  "claim": {
+    "kind": "exact_arithmetic",
+    "expression": "3*(19/2)",
+    "answer": "57/2"
+  },
+  "evidence_id": "demo-001",
+  "actions": [],
+  "assumptions": [
+    "exact-integer-rational-arithmetic"
+  ],
+  "draft_text": "The result is 28.5, which proves nothing broader."
+}
