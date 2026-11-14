@@ -1,0 +1,30 @@
+{
+  "built_on": "2026-11-14",
+  "cli_smoke": "good=VERIFIED exit 0, bad_math=REJECTED exit 3 (verified in source tree)",
+  "external_release": "HOLD pending independent legal/IP, security and repository audit",
+  "files": {
+    ".gitignore": "22d8a0ebbba58d8347ab7bfa6e116f2f10043966dda0f2f1665b0d5f04e92910",
+    "LICENSE": "9226cac33d2a46dcef148d54dc93cd526b27c1563f74acc00a8b87c9eac35bf7",
+    "README.md": "9d6cda9e43cd4ce9a31f2a07c69955cbf672ecc7b9136f46fb35ad6458b311cf",
+    "RELEASE_GATE.md": "1b06adb4672a69027796e5b0ec9575a62dd21415306f68b7f9203c782475f35d",
+    "SECURITY.md": "5ec83281fc3e9f45ad04103b4fd894a9dd4b138e3c27604a704f539f12a8c5b2",
+    "TRADEMARKS.md": "b4f5aa840c573741b5a395c1133bbb98174c5c7caf4aa5cb4a9c53f3e07eb08d",
+    "baroness_guard/__init__.py": "460ef5af280477c2ae5bf87f18e21cdde8d440ecc12bc60526e76dd5e22de13d",
+    "baroness_guard/__main__.py": "0bd6eced0c3d9353a598a814a7322783f0ef4a9175f765807eed239dc38cdbe2",
+    "baroness_guard/core.py": "603693764eb59aac763163b3cb3efec7d0c1f96ebd77d831dd65fbf87655262f",
+    "examples/agent_bad_math.json": "633c6b44ac205098f1930ca9d23035e4108f14ad15c3e0fa3ad9f9d2e1b9c1e7",
+    "examples/agent_blocked_action.json": "a285c97a481751e282507bdeb875bb795b6b6f76f4cde3f9d0ad9dbc6fc0d79c",
+    "examples/agent_good.json": "5cae3d56cc8cb57e73ea495140f39c6715fc187b6cb99c6f1914b5ca3f9779a8",
+    "examples/trusted_evidence.json": "552c8ca9a4282679e5cb4d6b8fdbac4658221ba1a08ff24ff6bbcfd5f7ebea67",
+    "tests/test_guard.py": "7dfc41f0ed7c91ee3b59dce7f87442c7ab27b00c79bff4e1e43780d066ed73c1"
+  },
+  "license": "BSD-3-Clause",
+  "license_authorization": "User explicitly approved selected license, Nov 14, 2026",
+  "project": "AI Baroness Guard",
+  "protection": "Public prototype only; no protected TP-CERT engine or hardware source copied",
+  "static_package_scope": "Only 15 public-scope files; no compiled assets, firmware, API keys, or industrial release package",
+  "status": "LICENSED_SOURCE_CANDIDATE_NOT_PUSHED",
+  "test_command": "python -m unittest discover -s tests -v",
+  "test_result": "48/48 PASS on Python 3.13.5 (fresh RC2 source tree), including 300 seeded random arithmetic comparisons",
+  "version": "0.1.0rc2"
+}
