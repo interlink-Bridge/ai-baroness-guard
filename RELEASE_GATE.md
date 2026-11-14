@@ -1,18 +1,23 @@
-# Publication boundary — AI Baroness Guard RC2 (BSD-3-Clause)
+# Publication record — AI Baroness Guard v0.1.0-rc2 (BSD-3-Clause)
 
-## Executed / admission
+## Release state — 2026-11-14
 
-- **License selection authorized:** BSD 3-Clause License. Standard `LICENSE` text added, copyright holder `Alexanja Senke`, SPDX headers added to Python files.
-- **Name clarification:** `TRADEMARKS.md` explains identification and non-endorsement without altering open-source license permissions.
-- **Software remains independent:** no TP-CERT industrial core, proof adapter, restricted ASK text, hardware program, key, or production evidence vault is included in this candidate.
-- **Scope:** exact arithmetic over a restricted grammar; proposed actions are only inspected, never executed; evidence registry is caller-controlled, not cryptographically authenticated. Only the guard-generated arithmetic sentence may be released.
-- Local tests and portable archive integrity must be executed again and included in `REPRODUCIBILITY.json` before any claim of technical PASS.
+- **GitHub visibility: PUBLIC, CONFIRMED** by repository metadata after the owner changed visibility.
+- **Repository:** https://github.com/interlink-Bridge/ai-baroness-guard
+- **Owner authorization:** the operator explicitly authorized open-source publication and confirmed that the visibility change was completed.
+- **Source scope:** 15 project files, corrected package directory structure, independent public prototype.
+- **License:** BSD 3-Clause License; copyright (c) 2026 Alexanja Senke. The original `LICENSE` and operator-edited `README.md` are unchanged by this record.
+- **Technical evidence:** 48/48 local tests passed on Python 3.13.5 on the audited RC2 source, including 300 seeded arithmetic comparisons. The original package and its matching GitHub source were reviewed before this publication note; see `REPRODUCIBILITY.json` for snapshot provenance.
 
-## Not closed by this package
+## Scope and limitations
 
-1. **Legal/IP — HOLD:** independent chain-of-title, any third-party code/rights or patent/publication consequence review, contributor consent if applicable, and suitability of BSD-3-Clause for contemplated commercial exploitation.
-2. **Independent security review — HOLD:** testing beyond the bounded local suite, hostile integrator scenarios, downstream tool authorization and provenance management; no general AI safety guarantee.
-3. **Public GitHub publication — NOT EXECUTED:** publication must not be inferred from this licensed ZIP. Review the actual remote repository identity, visibility, full Git history, credentials and all included assets before publishing. Human authorization does not replace those checks.
-4. **Industrial TP-CERT scope — UNTOUCHED:** this package neither changes nor licenses the private engine, STM32/Pico work, internal evidence, IP or Zenodo records.
+The public program evaluates bounded exact arithmetic, crosschecks independent evaluation paths, checks a caller-controlled evidence binding and structurally inspects allowed proposed actions. It does **not** execute tools, verify arbitrary natural-language statements, authenticate evidence custody or enforce downstream tool authorization.
 
-**Decision:** Prepared, licensed RC2 source; public push remains pending the relevant gates. No silent publication, remote mutation, or upstream overwrite.
+- **Independent legal/IP review — NOT CLAIMED:** no independent chain-of-title, patent, trademark or counsel opinion is represented by this publication record.
+- **Independent security audit/certification — NOT CLAIMED:** bounded local tests are not general-purpose AI safety proof, a production deployment approval or third-party certification.
+- **Industrial TP-CERT scope — EXCLUDED:** no protected TP-CERT engine source, proof adapters, internal ASK governance implementation, hardware firmware, signing keys, industrial evidence or Zenodo rights are granted by this repository.
+- **Git history is public:** prior private-repository commits become externally visible after the visibility change. This record does not claim history rewriting or removal of Git author metadata.
+
+## Decision and provenance
+
+**PUBLIC SOURCE RELEASE COMPLETED by operator authorization.** License and public-scope software available on GitHub. The absence of independent legal and security opinions remains explicitly disclosed, not silently upgraded to PASS. Future changes to protected industrial artifacts require separate authorization.
